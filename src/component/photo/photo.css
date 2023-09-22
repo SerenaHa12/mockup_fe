@@ -1,0 +1,36 @@
+.photo-wrapper {
+  margin: 10px 80px;
+}
+
+.photo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.photo-card {
+  flex-basis: calc(25% - 10px);
+  margin-bottom: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+.photo-card img {
+  width: 100%;
+  height: auto;
+}
+
+.load-more-button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.load-more-button:hover {
+  background-color: #0056b3;
+}
